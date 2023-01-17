@@ -255,6 +255,68 @@ body {
 
 /* Projects */
 
+/* Form */
+
+/* form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.form-input {
+    margin: 0 auto 0.7rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-textarea {
+    margin: 0 auto 0.7rem auto;
+}
+
+label {
+    font-weight: 700;
+}
+
+input {
+    padding: 4px;
+    width: 70%;
+    border-radius: 100px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.form-button {
+    display: flex;
+    padding: 4px;
+    background: linear-gradient(45deg, #419AF2, #4FA9F2, #5EB9F1, #6CC8F1, #7BD8F0, #89E7F0);
+    border-radius: 100px;
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.form-button > span {
+    text-decoration: none;
+    background-color: white;
+    color: #1D1D1D;
+    font-weight: 700;
+    border-radius: 100px;
+    padding: 8px 16px;
+}
+
+.form-button:hover {
+    box-shadow: 0.2rem 0.4rem 1.2rem rgba(0, 0, 0, 0.08);
+    transform: scale(1.04);
+}
+
+/* Form */
+
 /* Media */
 
 .media-icon {
@@ -473,6 +535,7 @@ body {
     .card-project {
         max-height: 684px;
     }
+    
 }
 
 @media (min-width: 1200px) {
